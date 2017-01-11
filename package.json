@@ -1,0 +1,31 @@
+{
+  "name": "webpack-loader-options-merge",
+  "version": "0.0.1",
+  "description": "Multiple LoaderOptionsPlugin merge to SingleOptions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader -R spec ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontainer/webpack-loader-options-merge.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader-options",
+    "merge"
+  ],
+  "author": "frontainer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frontainer/webpack-loader-options-merge/issues"
+  },
+  "homepage": "https://github.com/frontainer/webpack-loader-options-merge#readme",
+  "devDependencies": {
+    "espower-loader": "^1.0.1",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.1.0",
+    "power-assert": "^1.4.1",
+    "webpack": "^2.2.0-rc.3"
+  }
+}
