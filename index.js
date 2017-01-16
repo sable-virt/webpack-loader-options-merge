@@ -9,7 +9,7 @@ module.exports = function (webpackConfig) {
       if (!latestOptionsPlugin) {
         latestOptionsPlugin = plugin;
       } else {
-        Object.assign(latestOptionsPlugin.options.options, plugin.options.options);
+        latestOptionsPlugin.options.options = Object.assign(latestOptionsPlugin.options.options || {}, plugin.options.options);
         webpackConfig.plugins.splice(len, 1);
       }
     }
