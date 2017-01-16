@@ -1,6 +1,6 @@
 {
   "name": "webpack-loader-options-merge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Multiple LoaderOptionsPlugin merge to SingleOptions.",
   "main": "index.js",
   "scripts": {
