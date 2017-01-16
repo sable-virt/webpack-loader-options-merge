@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = function (webpackConfig) {
+  webpackConfig.plugins = webpackConfig.plugins || [];
   let len = webpackConfig.plugins.length;
   let latestOptionsPlugin;
   while (len--) {
